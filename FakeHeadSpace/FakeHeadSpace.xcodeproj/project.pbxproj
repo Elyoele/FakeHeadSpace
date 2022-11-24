@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		747E4724292FCE4800652C71 /* FakeHeadSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E4723292FCE4800652C71 /* FakeHeadSpaceApp.swift */; };
-		747E4726292FCE4800652C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E4725292FCE4800652C71 /* ContentView.swift */; };
-		747E4728292FCE4900652C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747E4727292FCE4900652C71 /* Assets.xcassets */; };
-		747E472B292FCE4900652C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747E472A292FCE4900652C71 /* Preview Assets.xcassets */; };
+		74CE604B292D17CB00B15382 /* FakeHeadSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE604A292D17CB00B15382 /* FakeHeadSpaceApp.swift */; };
+		74CE604D292D17CB00B15382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE604C292D17CB00B15382 /* ContentView.swift */; };
+		74CE604F292D17CC00B15382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CE604E292D17CC00B15382 /* Assets.xcassets */; };
+		74CE6052292D17CC00B15382 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CE6051292D17CC00B15382 /* Preview Assets.xcassets */; };
+		74CE6059292D182400B15382 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE6058292D182400B15382 /* GameScene.swift */; };
+		74CE605B292D185500B15382 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE605A292D185500B15382 /* GameViewController.swift */; };
+		74CE6063292E309D00B15382 /* CatImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 74CE6062292E309D00B15382 /* CatImages.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		747E4720292FCE4800652C71 /* FakeHeadSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeHeadSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		747E4723292FCE4800652C71 /* FakeHeadSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHeadSpaceApp.swift; sourceTree = "<group>"; };
-		747E4725292FCE4800652C71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		747E4727292FCE4900652C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		747E472A292FCE4900652C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74CE6047292D17CB00B15382 /* FakeHeadSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeHeadSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CE604A292D17CB00B15382 /* FakeHeadSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeHeadSpaceApp.swift; sourceTree = "<group>"; };
+		74CE604C292D17CB00B15382 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74CE604E292D17CC00B15382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CE6051292D17CC00B15382 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74CE6058292D182400B15382 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		74CE605A292D185500B15382 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		74CE6062292E309D00B15382 /* CatImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = CatImages.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		747E471D292FCE4800652C71 /* Frameworks */ = {
+		74CE6044292D17CB00B15382 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		747E4717292FCE4800652C71 = {
+		74CE603E292D17CB00B15382 = {
 			isa = PBXGroup;
 			children = (
-				747E4722292FCE4800652C71 /* FakeHeadSpace */,
-				747E4721292FCE4800652C71 /* Products */,
+				74CE6049292D17CB00B15382 /* FakeHeadSpace */,
+				74CE6048292D17CB00B15382 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		747E4721292FCE4800652C71 /* Products */ = {
+		74CE6048292D17CB00B15382 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				747E4720292FCE4800652C71 /* FakeHeadSpace.app */,
+				74CE6047292D17CB00B15382 /* FakeHeadSpace.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		747E4722292FCE4800652C71 /* FakeHeadSpace */ = {
+		74CE6049292D17CB00B15382 /* FakeHeadSpace */ = {
 			isa = PBXGroup;
 			children = (
-				747E4723292FCE4800652C71 /* FakeHeadSpaceApp.swift */,
-				747E4725292FCE4800652C71 /* ContentView.swift */,
-				747E4727292FCE4900652C71 /* Assets.xcassets */,
-				747E4729292FCE4900652C71 /* Preview Content */,
+				74CE6062292E309D00B15382 /* CatImages.atlas */,
+				74CE604A292D17CB00B15382 /* FakeHeadSpaceApp.swift */,
+				74CE604C292D17CB00B15382 /* ContentView.swift */,
+				74CE6058292D182400B15382 /* GameScene.swift */,
+				74CE605A292D185500B15382 /* GameViewController.swift */,
+				74CE604E292D17CC00B15382 /* Assets.xcassets */,
+				74CE6050292D17CC00B15382 /* Preview Content */,
 			);
 			path = FakeHeadSpace;
 			sourceTree = "<group>";
 		};
-		747E4729292FCE4900652C71 /* Preview Content */ = {
+		74CE6050292D17CC00B15382 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				747E472A292FCE4900652C71 /* Preview Assets.xcassets */,
+				74CE6051292D17CC00B15382 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +79,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		747E471F292FCE4800652C71 /* FakeHeadSpace */ = {
+		74CE6046292D17CB00B15382 /* FakeHeadSpace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 747E472E292FCE4900652C71 /* Build configuration list for PBXNativeTarget "FakeHeadSpace" */;
+			buildConfigurationList = 74CE6055292D17CC00B15382 /* Build configuration list for PBXNativeTarget "FakeHeadSpace" */;
 			buildPhases = (
-				747E471C292FCE4800652C71 /* Sources */,
-				747E471D292FCE4800652C71 /* Frameworks */,
-				747E471E292FCE4800652C71 /* Resources */,
+				74CE6043292D17CB00B15382 /* Sources */,
+				74CE6044292D17CB00B15382 /* Frameworks */,
+				74CE6045292D17CB00B15382 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +93,25 @@
 			);
 			name = FakeHeadSpace;
 			productName = FakeHeadSpace;
-			productReference = 747E4720292FCE4800652C71 /* FakeHeadSpace.app */;
+			productReference = 74CE6047292D17CB00B15382 /* FakeHeadSpace.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		747E4718292FCE4800652C71 /* Project object */ = {
+		74CE603F292D17CB00B15382 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					747E471F292FCE4800652C71 = {
+					74CE6046292D17CB00B15382 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 747E471B292FCE4800652C71 /* Build configuration list for PBXProject "FakeHeadSpace" */;
+			buildConfigurationList = 74CE6042292D17CB00B15382 /* Build configuration list for PBXProject "FakeHeadSpace" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 747E4717292FCE4800652C71;
-			productRefGroup = 747E4721292FCE4800652C71 /* Products */;
+			mainGroup = 74CE603E292D17CB00B15382;
+			productRefGroup = 74CE6048292D17CB00B15382 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				747E471F292FCE4800652C71 /* FakeHeadSpace */,
+				74CE6046292D17CB00B15382 /* FakeHeadSpace */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		747E471E292FCE4800652C71 /* Resources */ = {
+		74CE6045292D17CB00B15382 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747E472B292FCE4900652C71 /* Preview Assets.xcassets in Resources */,
-				747E4728292FCE4900652C71 /* Assets.xcassets in Resources */,
+				74CE6052292D17CC00B15382 /* Preview Assets.xcassets in Resources */,
+				74CE604F292D17CC00B15382 /* Assets.xcassets in Resources */,
+				74CE6063292E309D00B15382 /* CatImages.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		747E471C292FCE4800652C71 /* Sources */ = {
+		74CE6043292D17CB00B15382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747E4726292FCE4800652C71 /* ContentView.swift in Sources */,
-				747E4724292FCE4800652C71 /* FakeHeadSpaceApp.swift in Sources */,
+				74CE605B292D185500B15382 /* GameViewController.swift in Sources */,
+				74CE6059292D182400B15382 /* GameScene.swift in Sources */,
+				74CE604D292D17CB00B15382 /* ContentView.swift in Sources */,
+				74CE604B292D17CB00B15382 /* FakeHeadSpaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		747E472C292FCE4900652C71 /* Debug */ = {
+		74CE6053292D17CC00B15382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		747E472D292FCE4900652C71 /* Release */ = {
+		74CE6054292D17CC00B15382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +271,7 @@
 			};
 			name = Release;
 		};
-		747E472F292FCE4900652C71 /* Debug */ = {
+		74CE6056292D17CC00B15382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -273,8 +285,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		747E4730292FCE4900652C71 /* Release */ = {
+		74CE6057292D17CC00B15382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -302,8 +314,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		747E471B292FCE4800652C71 /* Build configuration list for PBXProject "FakeHeadSpace" */ = {
+		74CE6042292D17CB00B15382 /* Build configuration list for PBXProject "FakeHeadSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				747E472C292FCE4900652C71 /* Debug */,
-				747E472D292FCE4900652C71 /* Release */,
+				74CE6053292D17CC00B15382 /* Debug */,
+				74CE6054292D17CC00B15382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		747E472E292FCE4900652C71 /* Build configuration list for PBXNativeTarget "FakeHeadSpace" */ = {
+		74CE6055292D17CC00B15382 /* Build configuration list for PBXNativeTarget "FakeHeadSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				747E472F292FCE4900652C71 /* Debug */,
-				747E4730292FCE4900652C71 /* Release */,
+				74CE6056292D17CC00B15382 /* Debug */,
+				74CE6057292D17CC00B15382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 747E4718292FCE4800652C71 /* Project object */;
+	rootObject = 74CE603F292D17CB00B15382 /* Project object */;
 }
